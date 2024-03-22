@@ -49,10 +49,19 @@ let arr = ["boy", "man", "girl",            "school", "girl", "woman"];
 
 // Write a JS script to search for the following word in the array."food"If the word is present, return it else return "the search word was not found"
 
+let priNeeds = ["shelter", "clothing", "food", "education"];
+let w = priNeeds.includes("food");
+if(w==true){
+    console.log("food")
+}
+else{
+console.log("the search word was not found")
+}
 
 
 
 // Write a JS script to sort the following string:
 
 let word = "renniw";
-console.log('sort', word.sort());
+
+console.log('split', word.split());
