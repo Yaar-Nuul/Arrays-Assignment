@@ -38,7 +38,9 @@ let arr = ["boy", "man", "girl",            "school", "girl", "woman"];
          index) => arr.indexOf(item) === index);
  }
  console.log(removeDuplicates(arr));
-
+ 
+ 
+ 
 // //method 2: set(); 
 // function removeDuplicates(arr) {
 //     return [...new Set(arr)];
@@ -63,5 +65,6 @@ console.log("the search word was not found")
 // Write a JS script to sort the following string:
 
 let word = "renniw";
+let word2 = word.split("").reverse("").join("")
 
-console.log('split', word.split());
+console.log('sorted', word);
