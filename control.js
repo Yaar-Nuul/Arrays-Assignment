@@ -75,16 +75,24 @@ acceptStringArray(["Atlanta", "Shanghai", "Hangzho", "Ramshiel"])
 
 // Write a JavaScript function that takes a string as input and reverses it using a while loop. The function should return the reversed string.
 function reversedStrings(holiday) {
-    let newString = " "
-    let i = holiday.length - 1
-    // let reversedHoliday = holiday.reverse()
-    while (i <= 0) {
-      newString += holiday[i];
-      i--;
-      console.log(newString);
-     break;   
+    // let newString = " "
+    // let i = holiday.length -1
+    // // let reversedHoliday = holiday.reverse()
+    // while (i <= 0) {
+    //   newString += holiday[i].split("").reverse("").join("");
+    //   i--;
+    //   console.log(newString);
+    //  break;   
+    // }
+    // return newString;
+    let newString = holiday.split("").reverse("").join("")
+    while (newString){
+        // console.log({newString});
+        return newString;
+        
     }
-    return newString;
+    
+
 }
 
  console.log(reversedStrings("Halloween"))
